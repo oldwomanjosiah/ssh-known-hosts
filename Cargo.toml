@@ -4,7 +4,14 @@ version = "1.0.0"
 authors = ["Josiah Hilden <jhilden13@gmail.com>"]
 edition = "2018"
 
+license = "GPL-3.0-or-later"
 readme = "readme.md"
+repository = "https://github.com/oldwomanjosiah/ssh-known-hosts"
+
+exclude = [
+	".github/",
+	"tests/"
+]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
