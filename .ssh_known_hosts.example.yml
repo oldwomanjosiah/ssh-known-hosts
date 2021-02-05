@@ -1,4 +1,5 @@
 hosts:
+  # hosts is a map from local-names to host specifications
   google:
     user_name: root
     host: google.com
