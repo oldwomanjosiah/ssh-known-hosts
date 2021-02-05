@@ -1,0 +1,10 @@
+hosts:
+  google:
+    user_name: root
+    host: google.com
+    port: 22
+  # You also have the option to leave the port field off for a
+  # default value of 22
+  facebook:
+    user_name: root
+    host: 192.168.1.1

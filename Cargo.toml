@@ -1,0 +1,17 @@
+[package]
+name = "ssh-known-hosts"
+version = "1.0.0"
+authors = ["Josiah Hilden <jhilden13@gmail.com>"]
+edition = "2018"
+
+readme = "readme.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+structopt = "0.3"
+eyre = "0.6"
+serde = { version = "1", features = [ "derive" ] }
+serde_yaml = "0.8"
+log = "0.4"
+env_logger = "0.8"
