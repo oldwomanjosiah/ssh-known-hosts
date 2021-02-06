@@ -55,5 +55,6 @@ cargo install ssh-known-hosts
 - [x] Keep a configurable list of hosts that can be ssh'd into
 - [ ] Use scp to download a file from host
 - [ ] Use scp to uplead a file to a host
+- [ ] Specify a per host public key file to use
 
 Maintained by oldwomanjosiah (jhilden13@gmail.com)
