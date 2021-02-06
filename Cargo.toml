@@ -1,5 +1,7 @@
 [package]
 name = "ssh-known-hosts"
+description = "A small utility for quickly connecting to known ssh hosts"
+
 version = "1.0.0"
 authors = ["Josiah Hilden <jhilden13@gmail.com>"]
 edition = "2018"
@@ -11,6 +13,16 @@ repository = "https://github.com/oldwomanjosiah/ssh-known-hosts"
 exclude = [
 	".github/",
 	"tests/"
+]
+
+keywords = [
+	"ssh",
+	"cli",
+	"tool",
+]
+categories = [
+	"command-line-utilities",
+
 ]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
