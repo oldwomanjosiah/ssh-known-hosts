@@ -51,10 +51,12 @@ cargo install ssh-known-hosts
 
 --------
 
-### Features
+### Features & Roadmap
 - [x] Keep a configurable list of hosts that can be ssh'd into
 - [ ] Use scp to download a file from host
 - [ ] Use scp to uplead a file to a host
 - [ ] Specify a per host public key file to use
+- [ ] Per invocation override of port and keyfile
+- [ ] Pass through arguments after `--` to invocation
 
 Maintained by oldwomanjosiah (jhilden13@gmail.com)
