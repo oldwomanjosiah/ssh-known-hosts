@@ -1,5 +1,7 @@
 # ssh-known-hosts
 
+[![Crates.io](https://img.shields.io/crates/v/ssh-known-hosts)](https://crates.io/crates/ssh-known-hosts)
+
 Connect to a host from a defined pool of hosts by an easy to remember name.
 
 ## Usage
