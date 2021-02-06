@@ -153,3 +153,18 @@ fn main() -> Result<()> {
         }
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn example_works() -> Result<()> {
+        let config_str = include_str!("../.ssh_known_hosts.example.yml");
+
+        let config = serde_yaml::from_str::<ConfigFile>(config_str)
+            .wrap_err("Could not deserialize example known hosts")?;
+
+        Ok(())
+    }
+}
